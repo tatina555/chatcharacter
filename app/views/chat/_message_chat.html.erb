@@ -1,0 +1,21 @@
+<div class="message">
+  <div class="upper-message">
+    <div class="message-user">
+    <% @chat.each do |chat| %>
+    <p><% if chat.messages >= 0 %>
+    <%= "お若いですね！" %>
+    <%end%>
+     </p>
+     <p><%= chat.messages %></p>
+    <% end %>
+    <div class="message-date">
+    aa
+    </div>
+  </div>
+  <div class="lower-message">
+  aaa
+    <div class="message-content">
+    aaaa
+    </div>
+  </div>
+</div>

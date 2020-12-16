@@ -4,8 +4,8 @@
     <% @chat.each do |chat| %>
     <p><% if chat.messages >= 0 %>
     <%= "お若いですね！" %>
-    <%end%>
      </p>
+    <%end%>
      <p><%= chat.messages %></p>
     <div class="message-date">
     <%= chat.created_at %>
